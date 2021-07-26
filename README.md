@@ -22,9 +22,9 @@ The user write/paste on the left part his text and the right side the text he wa
 - Update on that Id happens continually if the user continues to update the "left" or the "right" textboxes.  
 
 Example: <br />
-POST v1/diff/left: "Hello there" <br />
-POST v1/diff/left: "Hello  therW" <br />
-Result: GET: "Hello**ther<i>W<i>e" <br />
+POST v1/diff/2/left: "Hello there" <br />
+POST v1/diff/2/left: "Hello therW" <br />
+Result: GET /v1/diff/2: "Hello**ther<i>W<i>e" <br />
 
 Out of the box: 
 - Encode Api 
