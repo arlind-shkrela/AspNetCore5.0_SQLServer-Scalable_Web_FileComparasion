@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace Scalable_Web.DTO.Response
 {
-    public class DifferenceResponseDTO
+    public class Base64ResponseDTO
     {
-        public int Id { get; set; }
-        public byte[] Result { get; set; }
+        public string File { get; set; }
     }
 }

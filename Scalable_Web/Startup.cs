@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Scalable_Web.Data;
 using Scalable_Web.DataManager;
+using Scalable_Web.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,8 @@ namespace Scalable_Web
 
 
             services.AddScoped<IDifference, DifferenceManager>();
+            services.AddScoped<IBase64, Base64Manager>();
+
 
 
             services.AddMvc(option => option.EnableEndpointRouting = false)

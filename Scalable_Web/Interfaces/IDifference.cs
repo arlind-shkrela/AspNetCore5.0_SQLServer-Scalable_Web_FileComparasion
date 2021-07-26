@@ -1,4 +1,5 @@
-﻿using Scalable_Web.DTO.Response;
+﻿using Scalable_Web.DTO.Request;
+using Scalable_Web.DTO.Response;
 using Scalable_Web.Models;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,12 @@ namespace Scalable_Web
         Task<Difference> GetByIdAsync(int id);
         Task<DifferenceResponseDTO> GetByIdAsyncAndCompare(int id);
 
-        Task<int> PostLeftAsync(int id, byte[] left);
-        Task<int> PostRightAsync(int id, byte[] right);
+        Task<int> PostLeftAsync(DifferencePostLeft modelLeft);
+        Task<int> PostRightAsync(DifferencePostRight modelRight); //int id, byte[] right
 
         Task UpdateAsync(Difference model);
+
+        Task DeleteAsync(Difference model);
 
     }
 }

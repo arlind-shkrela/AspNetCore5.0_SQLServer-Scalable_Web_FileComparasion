@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scalable_Web", "Scalable_Web\Scalable_Web.csproj", "{9202A016-0D44-4BFB-AC15-7791B101ABE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scalable_Web", "Scalable_Web\Scalable_Web.csproj", "{9202A016-0D44-4BFB-AC15-7791B101ABE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scalable_Web.Test", "Scalable_Web.Test\Scalable_Web.Test.csproj", "{FD5E9F98-7E5E-4F97-8AEE-FF0DC18FFFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scalable_Web.IntegrationTests", "Scalable_Web.IntegrationTests\Scalable_Web.IntegrationTests.csproj", "{F2CCC1B8-22EF-484E-A83A-A622A50504CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9202A016-0D44-4BFB-AC15-7791B101ABE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9202A016-0D44-4BFB-AC15-7791B101ABE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9202A016-0D44-4BFB-AC15-7791B101ABE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5E9F98-7E5E-4F97-8AEE-FF0DC18FFFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5E9F98-7E5E-4F97-8AEE-FF0DC18FFFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5E9F98-7E5E-4F97-8AEE-FF0DC18FFFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5E9F98-7E5E-4F97-8AEE-FF0DC18FFFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CCC1B8-22EF-484E-A83A-A622A50504CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CCC1B8-22EF-484E-A83A-A622A50504CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CCC1B8-22EF-484E-A83A-A622A50504CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CCC1B8-22EF-484E-A83A-A622A50504CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

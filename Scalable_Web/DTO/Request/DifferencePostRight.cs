@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Scalable_Web.DTO.Response
+namespace Scalable_Web.DTO.Request
 {
-    public class DifferenceResponseDTO
+    public class DifferencePostRight
     {
         public int Id { get; set; }
-        public byte[] Result { get; set; }
+        public byte[] Right { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace Scalable_Web.Profiles
         {
             CreateMap<Difference, DifferenceResponseDTO>()
                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
-              .ForMember(dest => dest.File, opt => opt.MapFrom(src => src.Left)).ReverseMap();
+              .ForMember(dest => dest.Result, opt => opt.MapFrom(src => src.Left)).ReverseMap();
         }
     }
 }
