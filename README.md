@@ -25,6 +25,10 @@ Example: <br />
 POST v1/diff/left: "Hello there" <br />
 POST v1/diff/left: "Hello  therW" <br />
 Result: GET: "Hello**ther<i>W<i>e" <br />
+
+Out of the box: 
+- Encode Api 
+- Decode Api
   
 Feel Free to use it/ or parts of it in your project. <br />
 Arlind
