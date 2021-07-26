@@ -22,9 +22,9 @@ The user write/paste on the left part his text and the right side the text he wa
 - Update on that Id happens continually if the user continues to update the "left" or the "right" textboxes.  
 
 Example: <br />
-POST v1/diff/left: "Hello there"
-POST v1/diff/left: "Hello  therW"
-Result: GET: "Hello**ther<i>W<i>e"
+POST v1/diff/left: "Hello there" <br />
+POST v1/diff/left: "Hello  therW" <br />
+Result: GET: "Hello**ther<i>W<i>e" <br />
   
 Feel Free to use it/ or parts of it in your project. <br />
 Arlind
