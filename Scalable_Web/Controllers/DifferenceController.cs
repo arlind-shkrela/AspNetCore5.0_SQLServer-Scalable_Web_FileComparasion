@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace Scalable_Web.Controllers
 {
     [ApiController]
-    public class DifferenceController : ControllerBase // test
+    public class DifferenceController : ControllerBase
     {
         private readonly IDifference _dataRepository;
 
